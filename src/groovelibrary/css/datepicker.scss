@@ -1,0 +1,36 @@
+.ant-picker {
+    &.datepicker-groove {
+
+        height: 56px;  
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  width: 100%;
+
+  .anticon svg {
+    width: 24px;
+    height: 24px;
+  }
+  .ant-picker-cell-inner {
+      font-size: 12px;
+      color: #212B36;
+      font-family: 'Graphik-Regular';
+  }
+
+
+    }
+}
+
+.ant-picker-dropdown {
+
+    .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+        border-radius: 50%;
+        // border: none;
+        // background-color: #374151;
+        // color: #fff !important;
+      }
+      .ant-picker-cell-in-view {
+         
+      }
+
+}

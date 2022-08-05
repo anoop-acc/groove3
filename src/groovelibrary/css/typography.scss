@@ -1,0 +1,145 @@
+//Default Headings
+h1,
+.h1 {
+  font-size: 28px!important;
+}
+h2,
+.h2 {
+  font-size: 24px!important;
+}
+h3,
+.h3 {
+  font-size: 20px!important;
+}
+h4,
+.h4 {
+  font-size: 16px!important;
+}
+h5,
+.h5 {
+  font-size: 14px!important;
+}
+h6,
+.h6 {
+  font-size: 12px!important;
+}
+
+//Bigger Size Display Headings
+h1 {
+  &.display {
+    color: var(--bs-dark)!important;
+
+    &-1 {
+      &-xl {
+        font-family: "Graphik-Super"!important;
+        font-size: 5rem!important;
+      }
+      &-sm {
+        font-family: "Graphik-Super"!important;
+        font-size: 2rem!important;
+      }
+    }
+    &-2 {
+      &-xl {
+        font-family: "Graphik-Bold"!important;
+        font-size: 5rem!important;
+      }
+      &-sm {
+        font-family: "Graphik-Bold"!important;
+        font-size: 2rem!important;
+      }
+    }
+    &-3 {
+      &-xl {
+        font-family: "Graphik-Medium"!important;
+        font-size: 5rem!important;
+      }
+      &-sm {
+        font-family: "Graphik-Medium"!important;
+        font-size: 2rem!important;
+      }
+    }
+    &-4 {
+      &-xl {
+        font-family: "Graphik-Light"!important;
+        font-size: 5rem!important;
+      }
+      &-sm {
+        font-family: "Graphik-Light"!important;
+        font-size: 2rem!important;
+      }
+    }
+    &-5 {
+      &-xl {
+        font-family: "Graphik-Thin"!important;
+        font-size: 5rem!important;
+      }
+      &-sm {
+        font-family: "Graphik-Thin"!important;
+        font-size: 2rem!important;
+      }
+    }
+  }
+}
+
+//Header Headings
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &.heading {
+    font-family: "Graphik-Semibold"!important;
+  }
+}
+
+//Default Body Headings
+body {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Graphik-Medium"!important;
+
+    &.regular {
+      font-family: "Graphik-Regular"!important;
+    }
+  }
+}
+
+//Text Colors
+
+.text-primary {
+  color: var(--bs-primary)!important; 
+}
+.text-secondary {
+  color: var(--bs-secondary)!important;
+}
+.text-success {
+  color: var(--bs-success)!important;
+}
+.text-danger {
+  color: var(--bs-danger)!important;
+}
+.text-warning {
+  color: var(--bs-warning)!important;
+}
+.text-info {
+  color: var(--bs-info)!important;
+}
+.text-light {
+  color: var(--bs-light)!important;
+}
+.text-dark {
+  color: var(--bs-dark)!important;
+}
+.text-muted {
+  color: var(--bs-muted)!important;
+}
+.text-white {
+  color: var(--bs-white)!important;
+}

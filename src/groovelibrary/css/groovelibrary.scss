@@ -1,0 +1,118 @@
+//Groove Design System Custom Styles
+
+:root {
+  --bs-primarydark: #7500c0;
+  --bs-secondarydark: #374151;
+  --bs-bluedark: #0025ac;
+  --bs-darkhover: #374151;
+  // --bs-success: #5fa50d;
+  // --bs-warning: #ffc000;
+  // --bs-danger: #dc2626;
+  // --bs-info:#018EFF;
+  // --bs-dark:#000000;
+  // --bs-white:#ffffff;
+  // --bs-gray:#6B7280;
+
+  // --bs-royal: ,
+  // --bs-empty: ,
+}
+//     --bs-blue: #75c1d8;
+//     --bs-indigo: #6610f2;
+//     --bs-purple: #6f42c1;
+//     --bs-pink: #d63384;
+//     --bs-red: #dc3545;
+//     --bs-orange: #fd7e14;
+//     --bs-yellow: #ffc107;
+//     --bs-green: #198754;
+//     --bs-teal: #20c997;
+//     --bs-cyan: #0dcaf0;
+//     --bs-white: #fff;
+//     --bs-gray: #6c757d;
+
+//     --bs-gray-dark: #343a40;
+//     --bs-gray-100: #f8f9fa;
+//     --bs-gray-200: #e9ecef;
+//     --bs-gray-300: #dee2e6;
+//     --bs-gray-400: #ced4da;
+//     --bs-gray-500: #adb5bd;
+//     --bs-gray-600: #6c757d;
+//     --bs-gray-700: #495057;
+//     --bs-gray-800: #343a40;
+//     --bs-gray-900: #212529;
+
+//     --bs-primary: #0d6efd;
+//     --bs-secondary: #6c757d;
+//     --bs-success: #198754;
+//     --bs-info: #0dcaf0;
+//     --bs-warning: #ffc107;
+//     --bs-danger: #dc3545;
+//     --bs-light: #f8f9fa;
+//     --bs-dark: #212529;
+// }
+
+//Coustom Colors
+$theme-colors: (
+   
+  "info": #018EFF,
+  "danger": #dc2626,
+  "primary": #A100FF,
+  "secondary": #6b7280,
+  "success": #5fa50d,
+  "warning": #ffc000,
+  "black":#000000,
+  "dark": #374151,
+  "blue": #0041f0,
+  "gray": #6B7280,
+  "light": #E5E7EB,
+  "white":#ffffff,
+);
+
+ 
+
+.link-gray {
+  color: var(--bs-secondary) !important ;
+}
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./colors.scss";
+
+@import "./tags.scss";
+@import "./button.scss";
+@import "./accordion.scss";
+@import "./breadcrumb.scss";
+@import "./progressbar.scss";
+@import "./radiobutton.scss";
+@import "./checkbox.scss";
+@import "./toggleswitch.scss";
+@import "./rangeslider.scss";
+@import "./alert.scss";
+@import "./slider.scss";
+@import "./list.scss";
+@import "./link.scss";
+@import "./modal.scss";
+@import "./tooltips.scss";
+@import "./scrollbar.scss";
+@import "./inputs.scss";
+@import "./dropdowns.scss";
+@import "./avatars.scss";
+@import "./card.scss";
+@import "./carousel.scss";
+@import "./pagination.scss";
+@import "./datepicker.scss";
+@import "./datatable.scss";
+@import "./spinner.scss";
+@import "./navs.scss";
+
+//Layouts
+@import "./footer.scss";
+@import "./header.scss";
+@import "./layout.scss";
+
+//Typography
+
+@import "./typography.scss";
+@import "./fonts.css";
+
+// Fontawesome
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css);

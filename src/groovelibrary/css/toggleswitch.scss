@@ -1,0 +1,33 @@
+.switch-groove {
+  .form-check-input {
+    height: 24px;
+    width: 36px;
+
+    ~label {
+        font-family: 'Graphik-Regular';  
+
+    }
+
+    &:checked {
+      background-color: #374151;
+      border-color: #374151;
+      ~label {
+        font-family: "Graphik-Medium";
+
+    }
+    }
+    &:focus {
+      box-shadow: 0 0 0 0.25rem #ddd;
+      border-color: #374151;
+      background-image: url(../images/toggleswitchnonactive.svg);
+    }
+  }
+  &.form-switch-inline {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+  label {
+      padding: 3px;
+
+  }
+}

@@ -1,0 +1,122 @@
+.tagSet {
+  .tag-groove {
+    margin: 0 8px 8px 0;
+  }
+}
+
+.badge {
+  &.badge-groove {
+    border-radius: 16px;
+    height: 32px;
+    padding: 10px 16px;
+    font-size: 11px;
+    font-family: "Graphik-Medium";
+    margin: 4px;
+    // min-width: 100px;
+    border: #D1D5DB solid 1px;
+    background-color: #fff;
+    color: #ccc;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .fa-xmark {
+      margin: 0 0 0 16px;
+      font-size: 17px;
+    font-weight: 900 !important;
+    line-height: 11px;
+    cursor: pointer;
+    }
+
+    &.bg-blue {
+        border-color:#0041F0 ;
+        color:#0052B7;
+        background-color: #F5F8FF !important;
+    }
+
+    &.bg-caribbean {
+
+        border-color:#00BAFF;
+        color: #006CB7;
+        background-color: #F5FCFF !important;
+    }
+    
+    &.bg-coral {
+
+        border-color:#F86D71;
+        color: #B23650;         
+  background-color: #FFF5F6 !important;
+    }
+    
+    &.bg-cyan {
+
+        border-color:  #06B6D4;
+        color: #0E7490;
+        background-color: #F6FDFD !important;
+    }
+    
+    &.bg-green {
+
+        border-color:#5FA50D;
+        color: #387606;
+        background-color: #F3FDE7 !important;
+    }
+    
+    &.bg-iris {
+
+        border-color:   #F97316;
+        color: #C2410C;
+        background-color: #FFF6EF!important;
+    }
+    
+    &.bg-pink {
+        border: 1px solid #EC4899;
+        color: #9D174D;
+  background-color: #FFFAFD !important;
+    }
+    
+    &.bg-plum {
+
+        border: 1px solid #B455AA;
+        color: #441056;
+        background-color: #FCF8FB;
+    }
+    
+    &.bg-purple {
+        border: 1px solid #A100FF;
+        color: #7500C0;
+  background-color: #FAF5FD;
+    }
+    
+    &.bg-red {
+        border: 1px solid #DC2626;
+        color: #B91C1C;
+  background-color: #FFF0F3;
+    }
+    
+    &.bg-teal {
+        border: 1px solid #14B8A6;
+        color: #0F766E;
+        background-color: #E8FDFA;
+    }
+    
+    &.bg-yellow {
+        border: 1px solid #FFC000;
+        color: #B78000;
+        background-color: #FFF9E5;
+    }
+    
+    &.bg-white {
+        border: 1px solid #D1D5DB;
+        color: #374151;
+        background-color: #FFFFFF;
+    }
+    
+    &.bg-slate {
+        border: 1px solid #6B7280;
+        color: #374151;
+        background-color: #F9FAFB;
+    }
+     
+  }
+}

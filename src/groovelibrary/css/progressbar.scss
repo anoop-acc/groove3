@@ -1,0 +1,182 @@
+.progressbar-groove-wrapper {
+  .progress {
+    height: 8px;
+    font-size: 0;
+    background-color: #d1d5db;
+  }
+  label {
+    font-size: 12px;
+    font-family: "Graphik-Regular";
+    color: #111827;
+  }
+}
+
+
+//And Design Circular 
+
+.progressbar-circle-groove {
+
+    &.blue , [variant="blue"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {    stroke: var(--bs-blue);    }
+        }
+
+    }
+    &.primary , [variant="primary"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-primary);    }
+        }
+
+    }
+    &.success, [variant="success"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-success);   }
+        }
+
+    }
+    &.warning , [variant="warning"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-warning);  }
+        }
+
+    }
+    &.danger, [variant="danger"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-danger);  }
+        }
+
+    }
+    &.info , [variant="info"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-info);  }
+        }
+
+    }
+    &.dark , [variant="dark"] {
+
+        .ant-progress-circle  {
+            .ant-progress-circle-path {     stroke: var(--bs-dark);  }
+        }
+
+    }
+ 
+.ant-progress-text
+{
+    fill: #111827;
+    font-family: "Graphik-Bold";
+    font-size: 38px;
+}
+label {
+    color: #111827;
+    font-family: 'Graphik-Medium';
+  font-size: 13.01px;
+  margin:  0;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+ 
+.CircularProgressbar-card {
+ 
+flex-direction: column;
+padding: 32px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label {
+        color: #111827;
+        font-family: 'Graphik-Medium';
+      font-size: 13.01px;
+      margin: 16px 0 0 0;
+    }
+
+}
+.gauge-progressbar-wrapper
+{
+    width: 162px;height: 105px;overflow: hidden;
+}
+// .CircularProgressbar-groove {
+
+//     text-align: center;
+
+//   .CircularProgressbar .CircularProgressbar-text {
+//     fill: #111827;
+//     font-family: "Graphik-Bold";
+//     font-size: 26px;
+//   }
+//   .CircularProgressbar .CircularProgressbar-path {
+     
+//   }
+//   .CircularProgressbar .CircularProgressbar-trail {
+//   }
+// &.primary {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-primary);
+//       }
+
+// }
+// &.blue {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-blue);
+//       }
+
+// }
+// &.success {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-success);
+//       }
+
+// }
+// &.warning {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-warning);
+//       }
+
+// }
+// &.danger {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-danger);
+//       }
+
+// }
+// &.info {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-info);
+//       }
+
+// }
+// &.dark {
+
+//     .CircularProgressbar .CircularProgressbar-path {
+//         stroke: var(--bs-dark);
+//       }
+
+// }
+
+
+// }

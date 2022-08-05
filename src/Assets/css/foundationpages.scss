@@ -1,0 +1,46 @@
+//Grids
+.shadow4 {
+    box-shadow: 0 0rem 1rem rgb(0 0 0 / 15%) !important;
+  }
+
+//Iconography 
+
+.iconcard {
+    height: 121px;
+    width: 121px;
+    border: 1px solid #DFE3E8;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #637381;
+    font-family: 'Graphik-Medium';
+  font-size: 11px;
+}
+.Standardlibraryicons {
+    justify-content: space-between;
+}
+
+//Typography 
+
+.containerMain   {
+  .typographypage {
+
+    .typography-header {
+
+    }
+    .typography-body {
+
+      h1{
+        font-family: 'Graphik-Medium';
+        &.regular {
+          font-family: 'Graphik-Regular';
+
+        }
+      }
+
+    }
+
+  }
+}

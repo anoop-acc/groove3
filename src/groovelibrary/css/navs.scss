@@ -1,0 +1,70 @@
+.nav-groove{
+    &.nav {
+
+        .nav-link {
+            font-family: "Graphik-Medium";
+            font-size: 14px;
+            margin-right: 32px;
+            color: #111827 !important;
+
+            &:hover, &:active, &:focus, &.active {
+                color: var(--bs-gray-600) !important;
+            }
+        }
+.dropdown {
+    .dropdown-menu .dropdown-item:active {
+        color: #1e2125;
+        background-color: #e9ecef;
+    }
+}
+       
+
+    }
+}
+
+//TABS
+.tab-groove{
+
+    &.nav-tabs {
+        border-bottom: none;
+    }
+
+    .nav-link
+    {
+        text-decoration: none;
+    padding: 14px 0;
+    outline: 0;
+    box-shadow: none;
+    margin: 0 36px 0 0;
+    color: #6b7280;
+    font-size: 14px;
+    font-family: "Graphik-Medium";
+    border: none;
+    &:hover {
+        border: none;
+    }
+
+    &.active
+    {
+        position: relative;
+        border: none;
+
+        &::after {
+            content: "";
+            display: block;
+            height: 4px;
+            border-radius: 4px 4px 0 0;
+            background-color: #111827;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+    
+    
+   
+    }
+}
+
+
+

@@ -1,0 +1,87 @@
+/*Slider */
+.slider-groove {
+    
+
+    .MuiSlider-rail {
+        height: 0.603rem;
+        background: #EFF2F5;
+        opacity: 1;
+    }
+
+    .MuiSlider-track {
+        height: 0.603rem;
+    }
+
+    .MuiSlider-thumb {
+        border: 1.21px solid #FFFFFF;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+   
+
+
+}
+.sliderContainer {
+
+    position: relative;
+
+    label {
+        position: absolute;
+        bottom: -4px;
+        color: #919EAB;
+        font-size: 12px;
+    }
+    .label-start{
+        left:0;
+    }
+    .label-mid{
+        left:50%;
+    }
+    .label-end{
+        right: 0;
+        text-align: right;
+    }
+
+}
+
+//Ant design slider
+.ant-slider {
+    &.slider-groove {
+        .ant-slider-rail {
+            height: 10px;
+            border-radius: 4.82px;
+          
+        }
+        .ant-slider-track {
+            height: 10px;border-radius: 4.82px;
+            background: #008EFF;
+        }
+        .ant-slider-handle {
+            height: 25.65px;
+            width: 25.71px;
+            border: 1.21px solid #FFFFFF;
+            background-color: #008EFF;
+            box-shadow: 0 0 6px 0 rgba(0,0,0,0.2);
+            top: 1px;
+        }
+        .ant-slider-step {
+            height: 10px;
+        }
+
+&[variant="primary"] , &.primary {
+
+    .ant-slider-track {
+         
+        background: var(--bs-primary);
+    }
+    .ant-slider-handle {
+        background-color: var(--bs-primary);
+
+        &:hover {
+            box-shadow: 0px 0px 0px 8px rgb(161 0 255 / 16%);
+        }
+     }
+
+}
+    }
+}

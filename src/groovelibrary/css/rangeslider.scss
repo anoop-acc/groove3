@@ -1,0 +1,12 @@
+.switch-primary {
+
+    .inputR {
+        accent-color: rgba(179, 35, 179, 0.75);
+
+        &::-webkit-slider-thumb { 
+            cursor: pointer;
+        }
+       
+      }
+
+}

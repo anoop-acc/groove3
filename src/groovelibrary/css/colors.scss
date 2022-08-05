@@ -1,0 +1,161 @@
+:root {
+  --bs-orange-050: #fef0e6;
+  //     --bs-orange-100: ;
+  //     --bs-orange-200: ;
+  --bs-orange-300: #fdba74;
+  //     --bs-orange-400: #000;
+  --bs-orange-500: #f97316;
+  //     --bs-orange-600: #000;
+  --bs-orange-700: #c2410c;
+  //     --bs-orange-800: #;
+  --bs-orange-900: #7c2d12;
+
+  //EXTENDED
+
+  //     --bs-teal-050: #f8f9fa;
+  //     --bs-teal-100: #f8f9fa;
+  //     --bs-teal-200: #e9ecef;
+  //     --bs-teal-300: #dee2e6;
+  //     --bs-teal-400: #ced4da;
+  //     --bs-teal-500: #adb5bd;
+  //     --bs-teal-600: #6c757d;
+  //     --bs-teal-700: #495057;
+  //     --bs-teal-800: #343a40;
+  //     --bs-teal-900: #212529;
+
+  //     --bs-cyan-050: #f8f9fa;
+  //     --bs-cyan-100: #f8f9fa;
+  //     --bs-cyan-200: #e9ecef;
+  //     --bs-cyan-300: #dee2e6;
+  //     --bs-cyan-400: #ced4da;
+  //     --bs-cyan-500: #adb5bd;
+  //     --bs-cyan-600: #6c757d;
+  //     --bs-cyan-700: #495057;
+  //     --bs-cyan-800: #343a40;
+  //     --bs-cyan-900: #212529;
+
+  //     --bs-caribbean-050: #f8f9fa;
+  //     --bs-caribbean-100: #f8f9fa;
+  //     --bs-caribbean-200: #e9ecef;
+  //     --bs-caribbean-300: #dee2e6;
+  //     --bs-caribbean-400: #ced4da;
+  //     --bs-caribbean-500: #adb5bd;
+  //     --bs-caribbean-600: #6c757d;
+  //     --bs-caribbean-700: #495057;
+  //     --bs-caribbean-800: #343a40;
+  //     --bs-caribbean-900: #212529;
+
+  //     --bs-plum-050: #f8f9fa;
+  //     --bs-plum-100: #f8f9fa;
+  //     --bs-plum-200: #e9ecef;
+  //     --bs-plum-300: #dee2e6;
+  //     --bs-plum-400: #ced4da;
+  //     --bs-plum-500: #adb5bd;
+  //     --bs-plum-600: #6c757d;
+  //     --bs-plum-700: #495057;
+  //     --bs-plum-800: #343a40;
+  //     --bs-plum-900: #212529;
+
+  //     --bs-pink-050: #f8f9fa;
+  //     --bs-pink-100: #f8f9fa;
+  //     --bs-pink-200: #e9ecef;
+  //     --bs-pink-300: #dee2e6;
+  //     --bs-pink-400: #ced4da;
+  //     --bs-pink-500: #adb5bd;
+  //     --bs-pink-600: #6c757d;
+  //     --bs-pink-700: #495057;
+  //     --bs-pink-800: #343a40;
+  //     --bs-pink-900: #212529;
+
+  //     --bs-pink-050: #f8f9fa;
+  //     --bs-pink-100: #f8f9fa;
+  //     --bs-pink-200: #e9ecef;
+  //     --bs-pink-300: #dee2e6;
+  //     --bs-pink-400: #ced4da;
+  //     --bs-pink-500: #adb5bd;
+  //     --bs-pink-600: #6c757d;
+  //     --bs-pink-700: #495057;
+  //     --bs-pink-800: #343a40;
+  //     --bs-pink-900: #212529;
+
+  //     --bs-coral-050: #f8f9fa;
+  //     --bs-coral-100: #f8f9fa;
+  //     --bs-coral-200: #e9ecef;
+  //     --bs-coral-300: #dee2e6;
+  //     --bs-coral-400: #ced4da;
+  //     --bs-coral-500: #adb5bd;
+  //     --bs-coral-600: #6c757d;
+  //     --bs-coral-700: #495057;
+  //     --bs-coral-800: #343a40;
+  //     --bs-coral-900: #212529;
+
+  //     --bs-colorname-050: #f8f9fa;
+  //     --bs-colorname-100: #f8f9fa;
+  //     --bs-colorname-200: #e9ecef;
+  //     --bs-colorname-300: #dee2e6;
+  //     --bs-colorname-400: #ced4da;
+  //     --bs-colorname-500: #adb5bd;
+  //     --bs-colorname-600: #6c757d;
+  //     --bs-colorname-700: #495057;
+  //     --bs-colorname-800: #343a40;
+  //     --bs-colorname-900: #212529;
+}
+
+.svgicon-green {
+  fill: var(--bs-success) !important ;
+}
+.svgicon-red {
+  fill: var(--bs-danger) !important ;
+}
+.svgicon-yellow {
+  fill: var(--bs-warning) !important ;
+}
+.svgicon-orange {
+  fill: var(--bs-warning) !important ;
+}
+.svgicon-blue {
+  fill: var(--bs-blue) !important ;
+}
+.svgicon-purple {
+  fill: var(--bs-primary) !important ;
+}
+.svgicon-black {
+  fill: var(--bs-dark) !important ;
+}
+.svgicon-gray {
+  fill: var(--bs-secondary) !important ;
+}
+.svgicon-info {
+  fill: var(--bs-info) !important ;
+}
+.svgicon-light {
+  fill: var(--bs-light) !important ;
+}
+
+.bg-white {
+  background-color: var(--bs-white) !important ;
+}
+.bg-black {
+  background-color: var(--bs-black) !important ;
+}
+.bg-primary {
+  background-color: var(--bs-primary) !important ;
+}
+.bg-secondary {
+  background-color: var(--bs-secondary) !important ;
+}
+.bg-warning {
+  background-color: var(--bs-warning) !important ;
+}
+.bg-danger {
+  background-color: var(--bs-danger) !important ;
+}
+.bg-info {
+  background-color: var(--bs-info) !important ;
+}
+.bg-gray {
+  background-color: var(--bs-gray) !important ;
+}
+.bg-light {
+  background-color: var(--bs-light) !important ;
+}

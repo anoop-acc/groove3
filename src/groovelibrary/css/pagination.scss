@@ -1,0 +1,52 @@
+.ant-pagination {
+
+    &.pagination-groove {
+
+        height: 33px;      
+        border: 0.78px solid #C4CDD5;
+        border-radius: 0 0 6.22px 6.22px;
+        background-color: #F9FAFB;
+        padding: 0px 6px;
+        display: flex;
+        align-items: center;
+
+        .ant-pagination-item {
+            height: 23px;
+            font-size: 10px;
+            min-width: 20px;
+            a {
+                height: 23px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .ant-pagination-prev, .ant-pagination-next, .ant-pagination-item-link {
+            height: 23px;
+            font-size: 10px;
+        }
+        .ant-pagination-item-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ant-pagination-item-active {
+            color: #fff;
+            background:var(--bs-blue);
+            border-color:var(--bs-blue) ;
+        }
+        .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+            height: 23px;
+        }
+        .ant-select-single .ant-select-selector .ant-select-selection-item, .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+            line-height: 21px;
+            font-size: 10px;
+        }
+
+        .ant-pagination-prev, .ant-pagination-next, .ant-pagination-jump-prev, .ant-pagination-jump-next {
+            min-width: 24px;
+        }
+
+    }
+
+}

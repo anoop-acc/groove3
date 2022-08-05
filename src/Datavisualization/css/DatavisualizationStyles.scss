@@ -1,0 +1,158 @@
+//Datavisualization Pages
+.colorPaletteSet {
+
+    margin: 12px 0 16px 0;
+
+    .color{
+      width:140px; height:128px;
+      
+
+      .colorcode {
+        border-radius: 50%;
+        background-color: #ddd;
+        height: 80px;
+        width: 80px;
+        display: flex;
+      }
+      p {
+        font-size: 14px;
+        font-family: 'Graphik-Medium';
+        color: #111827;
+        margin: 0;
+        small {
+          font-family: 'Graphik-Regular';
+          color: #6B7280;
+          display: block;
+        }
+      }
+    }
+  
+  }
+  .containerMain {
+    h3 {
+        &.gbold {
+            font-family: 'Graphik-Bold';
+          }
+
+    }
+  }
+.tabContents {
+
+    ol {
+        padding: 0 0 0 16px;
+
+        li {
+            padding-left: 12px;
+        }
+      }
+}
+
+ol.olNumbers {
+  padding: 0 0 0 16px;
+
+  li {
+      padding-left: 12px;
+  }
+}
+
+.ul-dash  {
+    padding: 0;
+    
+    li {
+        list-style: none;
+        padding: 0 0 0 8px;
+        position: relative;
+        &::before {
+            content: "- ";
+            position: absolute;
+            left:0;
+        }
+        }
+   
+}
+
+.chartSet {
+  p {
+    font-size: 14px;
+    margin: 4px 0 0 0;
+  }
+  > .row {
+    margin-bottom: 36px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h3 {
+    margin-bottom: 24px;
+  }
+}
+
+.p-f-14 {
+  p {
+    font-size: 14px;
+    
+  }
+}
+.btn-eg {
+  font-size: 14px;
+}
+
+.componentImg {
+  width: 100%;
+}
+.componentImgAuto {
+  width: auto;
+}
+.card-filteritem {
+  height: 152px;
+  max-width: 280px;
+  display: flex;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cardSetFilters {
+
+  h3, .card-filteritem { 
+    margin-bottom: 24px;
+
+  }
+  img {
+    width: 90%;
+  }
+
+
+}
+.img-tooltips
+{
+  max-width:297px;
+height:192px;
+}
+.img-100 {
+  width: 100%;
+}
+.imgbestpractice
+{
+   width:396px;
+ height:256px;
+}
+.card-graph {
+  height: 211px;
+  width: 297px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 40px 0 rgba(0,0,0,0.15);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 12px;
+
+  img {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,57 @@
+.breadcrumb-groove {
+    .breadcrumb-item {
+        font-size: 14px;
+        font-family: "Graphik-Semibold";
+        a {
+            text-decoration: none;
+            color: #0052B7;
+
+            
+color: var(--bs-dark);
+font-family: "Graphik-Semibold";
+font-size: 14px;
+font-weight: 600;
+font-style: normal;
+letter-spacing: -0.32px;
+text-align: center;
+line-height: 16.5px;
+
+            &:hover{
+                opacity: .7;
+            }
+            
+            
+        }
+        &.active {
+            font-family: 'Graphik-Medium';            
+            opacity: .7;
+        }
+       
+         
+        + {
+            .breadcrumb-item {
+                &::before {
+                    color: #374151;
+                    font-family: 'Graphik-Medium';
+                }
+            }
+        }
+
+    }
+    //custom Color 
+    &.primary {
+        a, li, .breadcrumb-item.active{
+            color: var(--bs-primary);
+        }
+    }
+    &.secondary {
+        a, li, .breadcrumb-item.active{
+            color: var(--bs-secondary);
+        }
+    }
+    &.secondarydark {
+        a, li, .breadcrumb-item.active{
+            color: var(--bs-secondarydark);
+        }
+    }
+}

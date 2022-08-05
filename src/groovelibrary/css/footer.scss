@@ -1,0 +1,125 @@
+.footer-groove {
+  box-shadow: 0px -1px 18px rgba(33, 43, 54, 0.1);
+  padding: 16px 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 60px;
+
+  color: rgba(107, 114, 128, 1);
+  font-family: "Graphik-Regular";
+  font-size: 12px;
+
+  &.light {
+    background: #fff;
+
+    .footer-logo.lightmode{
+        display: inline-block;
+    }
+    .footer-logo.darkmode{
+        display: none;
+            }
+
+  }
+  &.dark {
+    background: #000;
+    color: #fff;
+
+    .footer-logo.darkmode{
+        display: inline-block;
+    }
+    .footer-logo.lightmode{
+        display: none;
+            }
+
+  }
+
+  .footer-logo {
+    margin: 0 80px 0 0;
+    > img {
+      width: 90px;
+    }
+  }
+  .copytight {
+    margin: 8px 32px 0 0;
+    white-space: nowrap;
+  }
+  .footer-links {
+    margin: 8px 0 0 0;
+    white-space: nowrap;
+    a {
+        margin: 0 32px 0 0;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+  }
+  .footer-sub-brand {
+    white-space: nowrap;
+    margin-left: auto;     
+    font-family: 'Graphik-Medium';
+    display: flex;
+    > img {
+        width: 20px; height: 20px;
+        margin: 0;
+    }
+    small{
+        font-family: "Graphik-Regular";
+    }
+    .sub-brand-name{
+        margin: 0 0 0 8px;
+        padding: 2px 0 0 0;
+        display: flex;
+        i {
+            width: 2px;
+    height: 15px;
+    background: var(--bs-primary);
+    margin: 0 8px;
+        }
+
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) { 
+
+    .footer-groove  {
+        background: #fff;
+        flex-direction: column;
+        height: inherit;
+        padding: 16px ;
+
+        .footer-logo {
+            margin-right:0 !important ;
+        }
+        .copytight { margin-right: 0;}
+
+        .footer-links {
+            margin: 8px 0 0 0;
+            > a:last-child { 
+                margin-right: 0;
+            }
+        }
+
+        .footer-sub-brand{
+            margin: 8px 0 0 0;
+        }
+    }
+    
+
+ }
+@include media-breakpoint-down(xl) { 
+
+    .footer-groove {
+
+        
+        .footer-logo {
+            margin-right: 40px;
+
+        }
+
+
+    }
+    
+
+ }
